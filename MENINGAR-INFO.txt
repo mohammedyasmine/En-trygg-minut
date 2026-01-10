@@ -1,0 +1,5 @@
+En trygg minut – meningar
+Källa: din text (oförändrade meningar).
+Antal rader hittade: 500
+Används i appen: 500 (fördelat 100×5)
+Längder per lista: [100, 100, 100, 100, 100]

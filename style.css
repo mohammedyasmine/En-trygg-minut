@@ -1,0 +1,67 @@
+body {
+  font-family: system-ui, Arial, sans-serif;
+  background: #3a4641; /* lite ljusare varm grön/grå */
+  margin: 0;
+  padding: 24px;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  color: #f2f3f2;
+}
+
+.card {
+  width: min(520px, 100%);
+  background: #4a5651; /* ljusare än tidigare */
+  border-radius: 20px;
+  padding: 26px;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.30);
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+  color: #f6f7f6;
+}
+
+.intro {
+  margin-bottom: 20px;
+  color: #e2e6e4;
+}
+
+.notice {
+  font-size: 0.9rem;
+  color: #d6dbd8;
+  background: #35403b;
+  padding: 14px;
+  border-radius: 14px;
+  margin-bottom: 24px;
+}
+
+.quote {
+  font-size: 1.35rem;
+  padding: 24px;
+  background: #35403b;
+  border-radius: 18px;
+  margin-bottom: 26px;
+  min-height: 96px;
+  display: grid;
+  place-items: center;
+  color: #f4f5f4;
+  line-height: 1.4;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background: #c9b37a; /* varm sand, lite ljusare */
+  color: #2a2a2a;
+  padding: 14px 22px;
+  border-radius: 18px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #d6c089;
+}

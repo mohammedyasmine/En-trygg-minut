@@ -1,0 +1,9 @@
+{
+  "name": "En trygg minut",
+  "short_name": "Trygg minut",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#eef2ee",
+  "theme_color": "#eef2ee",
+  "icons": []
+}
