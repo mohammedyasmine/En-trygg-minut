@@ -3,36 +3,16 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Läs en lugn och uppmuntrande mening från En trygg minut." />
   <title>En trygg minut</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="manifest" href="manifest.json" />
-  <meta name="theme-color" content="#65735f" />
+  <meta name="theme-color" content="#eef2ee" />
 </head>
 <body>
-  <main class="screen">
-    <section class="sentence-card">
-      <img class="heart-logo small" src="icon-192.png" alt="" aria-hidden="true" />
-      <p class="sentence-brand">En trygg minut</p>
-
-      <div class="quote-box" aria-live="polite">
-        <p id="quote">En liten stund för dig.</p>
-      </div>
-
-      <p class="take-time">Ta den tid du behöver.</p>
-
-      <button class="main-button" id="next" type="button">Visa en ny mening</button>
-
-      <a class="adult-info" href="index.html">Tillbaka</a>
-    </section>
+  <main class="card">
+    <div class="quote" id="quote">Tryck på knappen för att läsa.</div>
+    <button class="btn" id="next">Visa en ny mening</button>
   </main>
 
   <script src="app.js"></script>
-  <script>
-    window.addEventListener("DOMContentLoaded", function () {
-      const button = document.getElementById("next");
-      if (button) button.click();
-    });
-  </script>
 </body>
 </html>
