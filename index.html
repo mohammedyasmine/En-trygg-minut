@@ -3,34 +3,32 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="En trygg minut – en lugn plats med snälla och uppmuntrande meningar." />
   <title>En trygg minut</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="manifest" href="manifest.json" />
-  <meta name="theme-color" content="#65735f" />
+  <meta name="theme-color" content="#eef2ee" />
 </head>
 <body>
-  <main class="screen">
-    <section class="home-card" aria-labelledby="page-title">
-      <img class="heart-logo" src="icon-192.png" alt="" aria-hidden="true" />
 
-      <p class="small-top">En liten paus i vardagen</p>
-      <h1 id="page-title">En trygg minut</h1>
+  <main class="card">
+    <h1>En trygg minut</h1>
+    <p class="intro">Här kan du läsa snälla meningar.<br>Ta en minut och andas lugnt.</p>
 
-      <p class="main-message">Här finns en liten stund för dig.</p>
-      <p class="sub-message">Läs en lugn och snäll mening när du behöver en paus.</p>
+    <div class="notice">
+      <p>Detta är inte vård eller terapi.</p>
+      <p>Om du mår väldigt dåligt – prata med en vuxen du litar på.</p>
+      <p>Vid akut fara, kontakta polisen <strong>112</strong>.</p>
+    </div>
 
-      <a class="main-button" href="meningar.html">Visa en mening</a>
-
-      <div class="safety-box">
-        <p><strong>Bra att veta</strong></p>
-        <p>Detta är inte vård eller terapi.</p>
-        <p>Om du mår väldigt dåligt – prata med en vuxen du litar på.</p>
-        <p>Vid akut fara – ring <strong>112</strong>.</p>
-      </div>
-
-      <a class="adult-info" href="info.html">Information för vuxna</a>
-    </section>
+    <a class="btn" href="meningar.html">Visa en mening</a>
   </main>
+
+  <!-- 🔽 LITEN DISKRET TEXT FÖR VUXNA -->
+  <footer style="margin-top:1.5rem; text-align:center; font-size:0.75rem; color:#6b7a74;">
+    <a href="info.html" style="color:#6b7a74; text-decoration:underline;">
+      Information för vuxna
+    </a>
+  </footer>
+
 </body>
 </html>
